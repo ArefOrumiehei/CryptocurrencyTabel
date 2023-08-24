@@ -1,6 +1,6 @@
 // Gif
 import { styled } from 'styled-components';
-import spinner from '../assets/gif/Spinner-1s-200px.gif'
+import spin from '../assets/gif/Spin-1s-200px.gif'
 
 const Container = styled.div `
     display: flex;
@@ -20,7 +20,7 @@ const Container = styled.div `
 const Loader = () => {
     return (
         <Container>
-            <img src={spinner} alt="Spinner" />
+            <img src={spin} alt="Spinner" />
             <span>Loading...</span>
         </Container>
     );
