@@ -23,3 +23,21 @@
     background: white;
     box-shadow: rgba(74, 74, 74, 0.24) 0px 3px 8px;
 }
+
+@media screen and (min-width : 350px) and (max-width : 998px) {
+    .coinContainer {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width : 350px) and (max-width : 768px) {
+    .input {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width : 769px) and (max-width : 768px) {
+    .input {
+        width: 30%;
+    }
+}

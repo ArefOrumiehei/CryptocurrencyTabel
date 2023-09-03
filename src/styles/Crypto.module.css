@@ -28,11 +28,17 @@
 .symbol {
     text-align: left;
     width: 100px;
+    font-weight: bold;
 }
 
 .price {
     text-align: left;
     width: 100px;
+    font-weight: bold;
+}
+
+.marketCap {
+    font-weight: bold;
 }
 
 .greenPriceChange,
@@ -48,4 +54,23 @@
 
 .greenPriceChange {
     color: #00ba03;
+}
+
+
+@media screen and (min-width : 350px) and (max-width : 768px) {
+    .marketCap{
+        display: none;
+    }
+}
+
+@media screen and (min-width : 350px) and (max-width : 500px) {
+    .symbol {
+        display: none;
+    }
+}
+
+@media screen and (min-width : 350px) and (max-width : 480px) {
+    .price {
+        display: none;
+    }
 }

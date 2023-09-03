@@ -1,6 +1,8 @@
-// Gif
 import { styled } from 'styled-components';
+
+// Gif
 import spin from '../assets/gif/Spin-1s-200px.gif'
+
 
 const Container = styled.div `
     display: flex;
